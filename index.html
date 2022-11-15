@@ -11,9 +11,9 @@
 
 <body>
     <nav>
-        <div class="nav">
-            <img class="main-logo" src="img/logo-img/mainlogoDB.png" alt="anbnb">
-        </div>
+
+        <img class="main-logo" src="img/logo-img/mainlogoDB.png" alt="anbnb">
+
         <div class="srchbar">
             <div class="line">
                 <h5 class="line-adjust"><a href="#"> Anywhere </a></h5>
@@ -29,18 +29,55 @@
 
             <!-- </div> -->
         </div>
-        <h5>Become a host</h5>
+        <h5 class="become"><span>Become a host</span></h5>
+        <div class="world-logo"><img src="/img/logo-img/worldlogo.png" alt="">
+        </div>
     </nav>
     <div></div>
 
     <!-- <form action="" class="search-bar">
                     <input type="text" placeholder="Anywher | Any time | Add guests" name="q">
                     <button type="submit"><img src="img/logo-img/search.png" alt=""></button> -->
-    </form>
-    </div>
+    <!-- </form> -->
+    <!-- </div> -->
 
-    </nav>
-    <header>
+
+    <header class="header-area">
+        <div class="header-container">
+            <div class="site-logo">
+
+                <div class="mobile-nav">
+                    <img class="bar" src="/img/logo-img/favicon.ico" alt="">
+                    <img class="profile" src="/img/logo-img/nav-bar-profile.png" alt="" width="34px">
+                </div>
+
+            </div>
+        </div>
+        <nav class="menu-bar">
+            <ul>
+                <li id="sign-up">
+                    Sign up
+                </li>
+
+                <li class="type">
+                    Login
+                </li>
+                <hr class="hr">
+                <li class="type">
+                    Host your home
+                </li>
+
+                <li class="type">
+                    Host and exprience
+                </li>
+
+                <li class="type">
+                    help
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <hr>
     </header>
     <main>
 
@@ -48,6 +85,16 @@
     <footer>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".mobile-nav").click(function() {
+                $(".menu-bar").toggleClass("mobile-nav");
+            });
+        })
+    </script>
 </body>
 
 </html>

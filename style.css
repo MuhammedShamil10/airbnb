@@ -1,15 +1,19 @@
+    body {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
     .main-logo {
         width: 100px;
         margin-left: 50px;
         padding: 20px;
         /* background: none; */
     }
-    /* SEARCH-BAR
+    /* SEARCH-BAR----NAV BAR
 ................*/
     
     .srchbar {
         display: flex;
-        margin-top: -70px;
+        margin-top: -60px;
         font-family: Arial, Helvetica, sans-serif;
         align-items: center;
         width: 340px;
@@ -97,7 +101,133 @@
         margin-bottom: 1px;
     }
     
-    #become {
+    .become {
+        text-align: right;
+        font-size: 15px;
         display: flex;
-        margin: 100px;
+        margin-top: -49px;
+        margin-left: 1500px;
+        opacity: 0.8;
+        max-width: 100%;
+        width: 110px;
+        padding: 10px;
+        border: 0px solid;
+        border-radius: 20px;
     }
+    
+    .become:hover {
+        background: rgb(224, 219, 219);
+    }
+    
+    .world-logo img {
+        display: flex;
+        height: 21px;
+        margin-left: 1619px;
+        margin-top: -62px;
+        max-width: 100%;
+        padding: 10px;
+        border: 0px solid;
+        border-radius: 20px;
+    }
+    
+    .world-logo img:hover {
+        background: rgb(224, 219, 219);
+        color: rgb(224, 219, 219);
+    }
+    
+    .menu-bar {
+        text-decoration: none;
+    }
+    
+    .mobile-nav {
+        border: 1px solid grey;
+        width: 75px;
+        height: 42px;
+        border-radius: 20px;
+        /* justify-content: center; */
+        margin-left: 1675px;
+        margin-top: -44px;
+    }
+    
+    .bar {
+        /* display: flex; */
+        padding: 5px;
+        margin-left: 5px;
+        margin-top: 7px;
+    }
+    
+    .profile {
+        position: absolute;
+        /* left: 10px; */
+        border-radius: 21px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    
+    .mobile-nav:hover {
+        box-shadow: 0.6px 0.5px 0.5px;
+    }
+    
+    .menu-bar ul {
+        position: fixed;
+        /* display: flex; */
+        /* position: relative; */
+        margin-left: 1500px;
+        padding: 10px;
+        margin-top: 10px;
+        /* text-decoration: none; */
+        list-style: none;
+        border: 0px solid grey;
+        border-radius: 21px;
+        max-width: 100%;
+        width: 230px;
+        height: 230px;
+        box-shadow: .5px .5px .5px;
+        color: gray;
+        background: #fff;
+    }
+    
+    .hr {
+        width: 230px;
+    }
+    
+    .menu-bar li {
+        padding: 15px;
+        margin-top: -5px;
+    }
+    
+    #sign-up {
+        font-size: medium;
+        font-weight: 800;
+        color: black;
+    }
+    
+    #sign-up:hover {
+        background: rgb(238, 231, 231);
+    }
+    
+    .type {
+        color: black;
+        font-weight: 100;
+    }
+    
+    .type:hover {
+        background: rgb(238, 231, 231);
+    }
+    /* .bar img {
+        display: flex;
+        margin-left: 1690px;
+        margin-top: -49px;
+        padding: 20px;
+    }
+    
+    .mobile-nav .profile {
+        width: 29px;
+        margin-left: 1715px;
+        margin-top: -60px;
+        border-radius: 50%;
+    }
+    
+    .mobile-nav {
+        border-radius:
+    } */
