@@ -106,7 +106,7 @@
         font-size: 15px;
         display: flex;
         margin-top: -49px;
-        margin-left: 1500px;
+        margin-left: 1480px;
         opacity: 0.8;
         max-width: 100%;
         width: 110px;
@@ -122,7 +122,7 @@
     .world-logo img {
         display: flex;
         height: 21px;
-        margin-left: 1619px;
+        margin-left: 1610px;
         margin-top: -62px;
         max-width: 100%;
         padding: 10px;
@@ -171,10 +171,10 @@
     .menu-bar ul {
         position: fixed;
         /* display: flex; */
-        /* position: relative; */
+        /* position: absolute; */
         margin-left: 1500px;
         padding: 10px;
-        margin-top: 10px;
+        margin-top: 30px;
         /* text-decoration: none; */
         list-style: none;
         border: 0px solid grey;
@@ -182,9 +182,13 @@
         max-width: 100%;
         width: 230px;
         height: 230px;
-        box-shadow: .5px .5px .5px;
-        color: gray;
-        background: #fff;
+        box-shadow: 1px 2px 7px 1px;
+        color: rgb(207, 200, 200);
+        background: rgb(255, 255, 255);
+    }
+    
+    #hr {
+        opacity: 0.2;
     }
     
     .hr {
