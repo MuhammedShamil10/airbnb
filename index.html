@@ -175,10 +175,68 @@
             <div class="filter"><img src="/img/logo-img/filter-logo.png" alt="">
                 <h5>filters</h5>
             </div>
+        </div>
+
+        <div class="slider">
+            <div class="img-slider">
+                <img src="/img/first img/img1.webp" alt="" class="img-one">
+            </div>
+
+            <div class="img-slider">
+                <img src="/img/first img/img2.webp" alt="" class="img-one">
+            </div>
+
+            <div class="img-slider">
+                <img src="/img/first img/img3.webp" alt="" class="img-one">
+            </div>
+
+            <div class="btn-left">
+                <button id="first-img-left" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            </div>
+            <div class="btn-right">
+                <button id="first-img-right" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <div class="detiels">
+                <h4 id="text-one">Cape Town,South Africa
+                    <h4 id="star-one"><img src="/img/logo-img/star-logo.png" alt="" width="11px">5.0</h4>
+                </h4>
+                <h4 class="text-one">Added 9 weeks ago</h4>
+                <h4 class="text-one">7-12 Apr</h4>
+                <h4 id="price-one">56,424 <span>night</span> </h4>
+            </div>
+
+            <div class="slider">
+                <div class="img-slider">
+                    <img src="/img/first img/img1.webp" alt="" class="img-one">
+                </div>
+
+                <div class="img-slider">
+                    <img src="/img/first img/img2.webp" alt="" class="img-one">
+                </div>
+
+                <div class="img-slider">
+                    <img src="/img/first img/img3.webp" alt="" class="img-one">
+                </div>
+
+                <div class="btn-left">
+                    <button id="first-img-left" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                </div>
+                <div class="btn-right">
+                    <button id="first-img-right" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <div class="detiels">
+                    <h4 id="text-one">Cape Town,South Africa
+                        <h4 id="star-one"><img src="/img/logo-img/star-logo.png" alt="" width="11px">5.0</h4>
+                    </h4>
+                    <h4 class="text-one">Added 9 weeks ago</h4>
+                    <h4 class="text-one">7-12 Apr</h4>
+                    <h4 id="price-one">56,424 <span>night</span> </h4>
+                </div>
 
 
 
 
+            </div>
 
 
         </div>
@@ -197,6 +255,29 @@
                 $(".menu-bar").toggleClass("mobile-nav");
             });
         })
+
+        // f
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("img-one");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
     </script>
 </body>
 
