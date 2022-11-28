@@ -8,6 +8,18 @@ body {
     padding: 20px;
 }
 
+.only-logo {
+    display: none;
+}
+
+.mobile-search-bar {
+    display: none;
+}
+
+#mobile-hr {
+    display: none;
+}
+
 
 /* SEARCH-BAR----NAV BAR
 ................*/
@@ -320,13 +332,12 @@ h6 {
     border-radius: 10px;
     height: 30px;
     padding: 5px 15px;
-    margin: 3px 0;
     opacity: 0.8;
 }
 
 .filter img {
     width: 15px;
-    margin-bottom: -10px;
+    margin-bottom: -9px;
 }
 
 .filter h5 {
@@ -450,8 +461,9 @@ main {
 
 .hotel-detls {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    opacity: 0.9;
 }
 
 .booking {
@@ -468,4 +480,302 @@ main {
 .price {
     font-size: 13px;
     margin-top: -5px;
+    opacity: 0.9;
+}
+
+
+/* Media ------> */
+
+@media screen and (max-width:1720px) {
+    .become {
+        margin-left: 1200px;
+    }
+    .world-logo {
+        margin-left: -280px;
+    }
+    .header-container {
+        margin-left: 1580px;
+    }
+    .mobile-nav {
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .become {
+        margin-left: 1000px;
+    }
+    .world-logo {
+        margin-left: -480px;
+    }
+    .header-container {
+        margin-left: 1480px;
+    }
+    .mobile-nav {
+        margin-left: -300px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .become {
+        margin-left: 850px;
+    }
+    .world-logo {
+        margin-left: -620px;
+    }
+    .header-container {
+        margin-left: 1540px;
+    }
+    .mobile-nav {
+        margin-left: -500px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .become {
+        margin-left: 750px;
+    }
+    .world-logo {
+        margin-left: -740px;
+    }
+    .header-container {
+        margin-left: 1540px;
+    }
+    .mobile-nav {
+        margin-left: -630px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .become {
+        margin-left: 650px;
+    }
+    .world-logo {
+        margin-left: -840px;
+    }
+    .header-container {
+        margin-left: 1510px;
+    }
+    .mobile-nav {
+        margin-left: -700px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .become {
+        margin-left: 600px;
+    }
+    .world-logo {
+        margin-left: -890px;
+    }
+    .header-container {
+        margin-left: 1510px;
+    }
+    .mobile-nav {
+        margin-left: -750px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .become {
+        margin-left: 540px;
+    }
+    .world-logo {
+        margin-left: -950px;
+    }
+    .header-container {
+        margin-left: 1570px;
+    }
+    .mobile-nav {
+        margin-left: -870px;
+    }
+    .srchbar {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .main-logo {
+        display: none;
+    }
+    .only-logo {
+        width: 40px;
+        margin-top: 20px;
+        display: block;
+    }
+    .srchbar {
+        margin-top: -45px;
+        margin-left: 50px;
+    }
+    .become {
+        margin-left: 440px;
+        margin-top: -40px;
+    }
+    .world-logo {
+        margin-left: -1040px;
+    }
+    .header-container {
+        margin-left: 1610px;
+    }
+    .mobile-nav {
+        margin-left: -1000px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .main-logo {
+        display: none;
+    }
+    .only-logo {
+        display: none;
+    }
+    .srchbar {
+        display: none;
+    }
+    .become {
+        display: none;
+    }
+    .world-logo {
+        display: none;
+    }
+    .mobile-nav {
+        display: none;
+    }
+    .mobile-search-bar {
+        border: 1px solid grey;
+        border-radius: 30px;
+        height: 45px;
+        padding: 5px;
+    }
+    .mobile-search-bar img {
+        margin-top: 12px;
+        margin-left: 15px;
+    }
+    .mobile-search-bar h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+        margin-top: -35px;
+        margin-left: 50px;
+        opacity: 0.8;
+    }
+    .mobile-search-bar h3 {
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: 50px;
+        padding-bottom: 10px;
+        margin-top: -6px;
+        opacity: 0.8;
+    }
+    #hr {
+        display: none;
+    }
+    .img-container {
+        margin-left: -100px;
+        padding-left: 10px;
+        margin-top: -10px;
+    }
+    .mobile-search-bar {
+        display: block;
+    }
+    .mobile-search-bar .mobile-filter {
+        width: 20px;
+        /* position: relative; */
+        margin-left: 710px;
+    }
+    .fill {
+        margin-top: -55px;
+    }
+    #mobile-hr {
+        display: block;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .mobile-search-bar .mobile-filter {
+        margin-left: 610px;
+    }
+    .mobile-search-bar {
+        width: 650px;
+    }
+    .only-logo {
+        display: none;
+    }
+    #mobile-hr {
+        display: block;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .mobile-search-bar .mobile-filter {
+        margin-left: 570px;
+    }
+    .mobile-search-bar {
+        width: 600px;
+    }
+    .only-logo {
+        display: none;
+    }
+    #mobile-hr {
+        display: block;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .mobile-search-bar .mobile-filter {
+        margin-left: 500px;
+    }
+    .mobile-search-bar {
+        width: 530px;
+    }
+    .only-logo {
+        display: none;
+    }
+    #mobile-hr {
+        display: block;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .mobile-search-bar .mobile-filter {
+        margin-left: 425px;
+    }
+    .mobile-search-bar {
+        width: 450px;
+    }
+    .only-logo {
+        display: none;
+    }
+    #mobile-hr {
+        display: block;
+        margin-top: -10px;
+    }
+}
+
+
+/* Mobile-view */
+
+@media screen and (max-width:480px) {
+    .mobile-search-bar .mobile-filter {
+        margin-left: 410px;
+    }
+    .mobile-search-bar {
+        width: 440px;
+    }
+    .slideshow-container img {
+        width: 400px;
+        margin-left: -50px;
+    }
+    .only-logo {
+        display: none;
+    }
+    #mobile-hr {
+        display: block;
+        margin-top: -10px;
+    }
 }
